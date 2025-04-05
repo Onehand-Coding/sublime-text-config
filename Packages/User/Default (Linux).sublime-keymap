@@ -1,0 +1,11 @@
+[
+        // Toggle the default shell in panel
+    { "keys": ["alt+1"], "command": "toggle_terminus_panel" },
+
+    // Open a terminal tab at current file directory
+    {
+        "keys": ["alt+2"], "command": "terminus_open", "args": {
+            "cwd": "${file_path:${folder}}"
+        }
+    },
+]

@@ -1,0 +1,10 @@
+{
+    "clients": {
+        "pyright": {
+            "command": ["pyright"],
+            "scopes": ["source.python"],
+            "syntaxes": ["Packages/Python/Python.sublime-syntax"],
+            "languageId": "python"
+        }
+    }
+}

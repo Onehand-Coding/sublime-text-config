@@ -1,0 +1,19 @@
+# Cache and Index Files
+Backup/
+Cache/
+Index/
+Lib/
+Trash/
+# Session Data (restoring this can cause issues)
+Session.sublime_session
+Auto Save Session.sublime_session
+*.sublime-workspace
+
+# Local settings (often contain window positions etc.)
+Local/
+
+# Logs
+Log/
+
+# Backups created by Sublime or packages
+*.bak

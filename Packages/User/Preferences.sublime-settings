@@ -1,0 +1,72 @@
+
+{
+	"theme": "auto",
+	// Sets the colors used within the text area.
+	// The value "auto" will switch between the "light_color_scheme" and
+	// "dark_color_scheme" based on the operating system appearance.
+	"color_scheme": "ayu-dark.sublime-color-scheme",
+	// Set to true to insert spaces when tab is pressed
+	"translate_tabs_to_spaces": true,
+	// Controls where trailing white space is removed on save.
+	// - "none": Do not remove any trailing white space on save.
+	// - "all": Remove all trailing white space on save.
+	// - "not_on_caret": Only remove white space that won't affect the caret.
+	//                   When used in conjunction with "save_on_focus_lost" and
+	//                   certain desktop environments that frequently make the
+	//                   application lose focus this avoids the caret jumping
+	//                   around a lot.
+	"trim_trailing_white_space_on_save": "not_on_caret",
+	"font_size": 11,
+	// Set to true to automatically save files when switching to a different file
+	// or application
+	"save_on_focus_lost": true,
+	// These settings hide various parts of the UI automatically when typing.
+	// Moving the mouse will show them again.
+	"auto_hide_status_bar": true,
+	// By default, shift+tab will only unindent if the selection spans
+	// multiple lines. When pressing shift+tab at other times, it'll insert a
+	// tab character - this allows tabs to be inserted when tab_completion is
+	// enabled. Set this to true to make shift+tab always unindent, instead of
+	// inserting tabs.
+	"shift_tab_unindent": true,
+	"show_sidebar_button": false,
+	"close_windows_when_empty": true,
+	"show_project_first": true,
+	"margin": 0,
+	// By default, auto complete will commit the current completion on enter.
+	// This setting can be used to make it complete on tab instead.
+	// Completing on tab is generally a superior option, as it removes
+	// ambiguity between committing the completion and inserting a newline.
+	"auto_complete_commit_on_tab": true,
+	// If previously-selected completions should be automatically selected
+	"auto_complete_use_history": true,
+	// Set to true to ensure the last line of the file ends in a newline
+	// character when saving
+	"ensure_newline_at_eof_on_save": true,
+	// Add a space after completions if the auto complete engine thinks
+	// they're likely enough
+	"auto_complete_trailing_spaces": true,
+	// Set to 0 to disable smooth scrolling. Set to a value between 0 and 1 to
+	// scroll slower, or set to larger than 1 to scroll faster
+	"scroll_speed": 0,
+	// Indicate modified lines in the gutter
+	// - true: Enables modified line indicators on all files
+	// - "auto": Enables modified line indicators on tracked files within Git
+	// - false: Disables modified line indicators
+	"mini_diff": "auto",
+	// Valid values are "smooth", "phase", "blink" and "solid". Previous
+	// versions of Sublime Text used "smooth" by default.
+	"caret_style": "blink",
+	"dark_theme": "Default Dark.sublime-theme",
+	"light_theme": "Adaptive.sublime-theme",
+	"dark_color_scheme": "Celeste.sublime-color-scheme",
+	"light_color_scheme": "Celeste.sublime-color-scheme",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"index_files": true,
+    "file_manager": "thunar",
+    "file_explorer_command": ["thunar", "$folder"],
+
+}

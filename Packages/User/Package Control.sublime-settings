@@ -1,0 +1,16 @@
+{
+	"bootstrapped": true,
+	"installed_packages":
+	[
+		"ayu",
+		"BracketSpacer",
+		"LSP",
+		"LSP-pyright",
+		"Package Control",
+		"SideBarEnhancements",
+		"Terminus",
+	],
+	"in_process_packages":
+	[
+	],
+}

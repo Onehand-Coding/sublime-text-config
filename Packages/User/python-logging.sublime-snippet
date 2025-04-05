@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+logging.basicConfig(
+    level=logging.${2:INFO},
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[logging.FileHandler(${1:"log file"}), logging.StreamHandler()],
+)
+]]></content>
+    <tabTrigger>log</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

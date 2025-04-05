@@ -1,0 +1,20 @@
+{
+    "target":"terminus_open",
+    //"cancel":"terminus_cancel_build",
+    "title": "Python custom",
+
+    "auto_close": false,
+    "focus": true,
+    "timeit": false,
+    "tag":"python build",
+
+    "shell_cmd": "python -u \"$file\"",
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "working_dir": "${file_path}",
+    "selector": "source.python",
+    "file_patterns":["*.py"],
+
+    "env": {
+        "PYTHONIOENCODING": "utf-8",
+        },
+}
