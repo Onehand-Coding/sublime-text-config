@@ -1,9 +1,9 @@
 {
-    "target":"terminus_open",
-    //"cancel":"terminus_cancel_build",
-    "title": "Python web",
+    "target":"terminus_exec",
+    "cancel":"terminus_cancel_build",
+    // "title": "Python game",
 
-    "auto_close": false,
+    "auto_close": true,
     "focus": true,
     "timeit": false,
     "tag":"python build",
@@ -15,7 +15,6 @@
     "file_patterns":["*.py"],
 
     "env": {
-        "PATH": "$PATH;c:/coding/python/envs/.web/Scripts"
+        "PATH": "$PATH;path/to/binary or exe/env"
         }
 }
-

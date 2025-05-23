@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+__pycache__/
+.venv/
+*.sublime-*
+.env
+]]></content>
+    <tabTrigger>git</tabTrigger>
+    <!-- <scope>.gitignore</scope> -->
+</snippet>
