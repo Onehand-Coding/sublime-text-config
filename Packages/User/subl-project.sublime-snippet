@@ -1,0 +1,43 @@
+<snippet>
+    <content><![CDATA[
+{
+    "folders":
+    [
+        {
+            "path": "${1:/path/to/project}"
+        }
+    ],
+    "settings": {
+        "LSP": {
+            "LSP-pyright": {
+                "settings": {
+                    "python": {
+                        "pythonPath": "${2:/path/to/project/.venv/bin/python}",
+                        "venvPath": "${3:/path/to/project/}",
+                        "venv": "${4:.venv}"
+                    }
+                }
+            }
+        }
+    },
+    "build_systems": [
+        {
+            "name": "${5:project-build}",
+            "target": "terminus_exec",
+            "cancel": "terminus_cancel_build",
+            "title": "${6:project-build}",
+            "auto_close": true,
+            "focus": true,
+            "timeit": false,
+            "shell_cmd": "${7:/path/to/project/.venv/bin/python} -u \"$file\"",
+            "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+            "working_dir": "\${file_path}",
+            "selector": "source.python",
+            "file_patterns": ["*.py"],
+        }
+    ]
+}
+]]></content>
+    <tabTrigger>sublproj</tabTrigger>
+    <scope>source.json</scope>
+</snippet>

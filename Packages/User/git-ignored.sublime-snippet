@@ -2,6 +2,7 @@
     <content><![CDATA[
 __pycache__/
 .venv/
+logs/
 *.sublime-*
 .env
 ]]></content>
