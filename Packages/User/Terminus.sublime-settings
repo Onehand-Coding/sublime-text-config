@@ -9,7 +9,7 @@
         // "caret": "white",
         // "block_caret": "white",
         "selection": "#444444",
-        "selection_foreground": "#ffffff"
+        "selection_foreground": "#ffffff",
         // "black": "#000000",
         // "red": "#cd0000",
         // "green": "#00cd00",

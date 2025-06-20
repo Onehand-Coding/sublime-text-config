@@ -1,6 +1,6 @@
 
 {
-	"theme": "auto",
+	"theme": "Default Dark.sublime-theme",
 	// Sets the colors used within the text area.
 	// The value "auto" will switch between the "light_color_scheme" and
 	// "dark_color_scheme" based on the operating system appearance.
@@ -59,11 +59,10 @@
 	"caret_style": "blink",
 	"dark_theme": "Default Dark.sublime-theme",
 	"light_theme": "Adaptive.sublime-theme",
-	"dark_color_scheme": "Celeste.sublime-color-scheme",
-	"light_color_scheme": "Celeste.sublime-color-scheme",
+	"dark_color_scheme": "Mariana.sublime-color-scheme",
+	"light_color_scheme": "Breakers.sublime-color-scheme",
 	"ignored_packages":
 	[
-		"Vintage",
 	],
 	"index_files": true,
     "file_manager": "thunar",
