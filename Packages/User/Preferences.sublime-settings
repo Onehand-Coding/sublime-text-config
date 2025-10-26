@@ -59,10 +59,12 @@
 	"caret_style": "blink",
 	"dark_theme": "Default Dark.sublime-theme",
 	"light_theme": "Adaptive.sublime-theme",
-	"dark_color_scheme": "Mariana.sublime-color-scheme",
-	"light_color_scheme": "Breakers.sublime-color-scheme",
+	"dark_color_scheme": "ayu-dark.sublime-color-scheme",
+	"light_color_scheme": "ayu-dark.sublime-color-scheme",
 	"ignored_packages":
 	[
+		"LSP",
+		"LSP-pyright",
 	],
 	"index_files": true,
     "file_manager": "thunar",

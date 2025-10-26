@@ -1,0 +1,19 @@
+{
+    "target":"terminus_exec",
+    //"cancel":"terminus_cancel_build",
+
+    "auto_close": true,
+    // "focus": true,
+    // "timeit": false,
+    // "tag":"html build",
+
+    "shell_cmd": "brave-browser \"$file\"",
+    "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+    "working_dir": "${file_path}",
+    "selector": "source.html",
+    "file_patterns":["*.html"],
+
+    "env": {
+        "PATH": "/usr/bin"
+        },
+}
