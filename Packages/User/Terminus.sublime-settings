@@ -1,4 +1,5 @@
 {
+    "shell_integration": false,
 	"theme": "terminix-dark",
 	// change `theme` to "user" if you want to use customized theme
     // see https://www.sublimetext.com/docs/3/color_schemes.html#colors for the
@@ -31,6 +32,8 @@
         // these are extra view settings which are passed to the terminus_view,
         // you could change settings like "font_face", "font_size" and paddings.
     	"block_caret":true,
+        "highlight_line": false,
+        "line_highlight": "#00000000",
     },
     // a list of available shells to execute
     "shell_configs": [

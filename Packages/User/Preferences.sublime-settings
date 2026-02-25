@@ -69,5 +69,8 @@
 	"index_files": true,
     "file_manager": "thunar",
     "file_explorer_command": ["thunar", "$folder"],
+    "highlight_line": false,
+    "match_brackets_square": false,
+    "env": {"TERMINUS_SUBLIME": "1"},
 
 }
