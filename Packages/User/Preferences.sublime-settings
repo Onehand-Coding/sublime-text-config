@@ -1,6 +1,6 @@
 
 {
-	"theme": "Default Dark.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	// Sets the colors used within the text area.
 	// The value "auto" will switch between the "light_color_scheme" and
 	// "dark_color_scheme" based on the operating system appearance.
@@ -63,14 +63,12 @@
 	"light_color_scheme": "ayu-dark.sublime-color-scheme",
 	"ignored_packages":
 	[
-		"LSP",
-		"LSP-pyright",
 	],
 	"index_files": true,
     "file_manager": "thunar",
     "file_explorer_command": ["thunar", "$folder"],
     "highlight_line": false,
     "match_brackets_square": false,
-    "env": {"TERMINUS_SUBLIME": "1"},
+    "env": {"TERMINUS_SUBLIME": "1",},
 
 }
